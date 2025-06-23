@@ -10,7 +10,12 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 android.minapi = 19
-android.arch = armeabi-v7a, arm64-v8a
+android.arch = armeabi-v7a
+android.minapi = 21
+android.api = 30
+android.sdk = 24
+android.ndk = 23b
+android.debug = 1
 
 [buildozer]
 log_level = 2
